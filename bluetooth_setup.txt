@@ -1,0 +1,15 @@
+The following changes were made so that the bluetooth serivce automatically connects to the Pro Controller
+
+hold the pair button on the pro controller until the leds flash
+
+in terminal:
+$ bluetoothctl
+[blueooth]# $agent on
+[blueooth]# $default-agent
+[blueooth]# $scan on
+[blueooth]# $pair <BT MAC Address of Pro Controller>
+[blueooth]# $trust <BT MAC Address of Pro Controller>
+[blueooth]# $scan off
+[blueooth]# $quit
+
+The pro controller should now connect automatically, and should resume the link if the connection is broken for some reason.
