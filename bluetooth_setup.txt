@@ -45,9 +45,9 @@ $sudo nano /etc/systemd/system/rfcomm.service
 ----------------------
 
 Next enable the daemon by running
-$sudo systemctl enable rfcomm
+$ sudo systemctl enable rfcomm
 
 The daemon will now run on startup, but to run it immediately, run:
-$sudo systemctl start rfcomm
+$ sudo systemctl start rfcomm
 
 ----------------------
