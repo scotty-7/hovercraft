@@ -2,4 +2,4 @@ This github repository contains all the code required to run the APSC 258 Hoverc
 
 Code by Connor Scott, Emily Schatz, Kevin Conly
 
-Schematics, code, drawings, and calculations can be put in here.
+Schematics, code, instructions, drawings, and calculations can be put in here.
