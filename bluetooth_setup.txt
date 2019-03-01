@@ -14,3 +14,4 @@ $ bluetoothctl
 
 The pro controller should now connect automatically, and should resume the link if the connection is broken for some reason.
 
+Next step, follow instructions on gamepad_setup.txt
